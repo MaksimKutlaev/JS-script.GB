@@ -17,4 +17,8 @@ const ru = [
   "воскресенье",
 ];
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+const daysWeek = {};
+for (let i = 0; i < ru.length; i++) {
+  daysWeek[en[i]] = ru[i];
+}
+console.log(daysWeek);

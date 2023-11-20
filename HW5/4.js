@@ -31,4 +31,7 @@ const products = [
   },
 ];
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+const productFilter = products.filter((item) => 'photos' in item && item.photos.lenght !== 0);
+const productSort = products.sort((price1, price2) => price1.price - price2.price);
+console.log(productFilter);
+console.log(productSort);

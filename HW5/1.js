@@ -15,4 +15,10 @@ const numbers = {
   key7: 7,
 };
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+const numbersGreaterThan3 = [];
+for (const key in numbers) {
+    if (numbers[key] >= 3) {
+        numbersGreaterThan3.push(numbers[key]);
+    }
+}
+console.log(`Значения из объекта больше 3: ${numbersGreaterThan3}`);
