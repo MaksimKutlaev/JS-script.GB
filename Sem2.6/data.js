@@ -1,11 +1,11 @@
 let dataProductsJSON = `[
     {
-        "image" : "1.jpg",
+        "image" : "./",
         "title" : "MANGO PEOPLE T-SHIRT",
         "price" : "$300",
         "color" : "Red",
         "size" : "XL",
-        "quantity" : "2",
+        "quantity" : "2"
     },
     {
         "image" : "2.jpg",
@@ -13,7 +13,7 @@ let dataProductsJSON = `[
         "price" : "$52",
         "color" : "Black",
         "size" : "XL",
-        "quantity" : "1",
+        "quantity" : "1"
     },
     {
         "image" : "3.jpg",
@@ -21,6 +21,6 @@ let dataProductsJSON = `[
         "price" : "$134",
         "color" : "Grey",
         "size" : "XL",
-        "quantity" : "1",
+        "quantity" : "1"
     }
 ]`;
